@@ -50,7 +50,8 @@
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_gear" />
+        app:srcCompat="@drawable/ic_gear"
+        android:contentDescription="@string/desc" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
@@ -74,7 +75,7 @@
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
             ads:adSize="MEDIUM_RECTANGLE"
-            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+            ads:adUnitId="ca-app-pub-7843981062980856/3014546509">
         </com.google.android.gms.ads.AdView>
 
     </androidx.cardview.widget.CardView>
@@ -92,7 +93,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView"
-        app:srcCompat="@drawable/ic_magic_wand" />
+        app:srcCompat="@drawable/ic_magic_wand"
+        android:contentDescription="@string/desc" />
 
     <ImageView
         android:id="@+id/imageViewCamera"
@@ -107,7 +109,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageViewEdit"
         app:layout_constraintTop_toBottomOf="@+id/cardView"
-        app:srcCompat="@drawable/ic_camera" />
+        app:srcCompat="@drawable/ic_camera"
+        android:contentDescription="@string/desc" />
 
     <TextView
         android:id="@+id/textView3"

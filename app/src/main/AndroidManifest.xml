@@ -22,7 +22,7 @@
         <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713"/>
+            android:value="ca-app-pub-7843981062980856~8671387230"/>
 
         <activity android:name=".ResultActivity"></activity>
         <activity android:name=".MainActivity">
@@ -35,48 +35,40 @@
 
         <!-- DS Photo Editor SDK-->
         <activity
-
             android:name="com.dsphotoeditor.sdk.activity.DsPhotoEditorActivity"
-
             android:screenOrientation="portrait"
-
             android:theme="@android:style/Theme.Holo.NoActionBar" />
 
         <activity
-
             android:name="com.dsphotoeditor.sdk.activity.DsPhotoEditorStickerActivity"
-
             android:screenOrientation="portrait"
-
             android:theme="@android:style/Theme.Holo.NoActionBar" />
 
         <activity
-
             android:name="com.dsphotoeditor.sdk.activity.DsPhotoEditorTextActivity"
-
             android:screenOrientation="portrait"
-
             android:theme="@android:style/Theme.Holo.NoActionBar"
-
             android:windowSoftInputMode="adjustPan" />
 
         <activity
-
             android:name="com.dsphotoeditor.sdk.activity.DsPhotoEditorCropActivity"
-
             android:screenOrientation="portrait"
-
             android:theme="@android:style/Theme.Holo.NoActionBar" />
 
         <activity
-
             android:name="com.dsphotoeditor.sdk.activity.DsPhotoEditorDrawActivity"
-
             android:screenOrientation="portrait"
-
             android:theme="@android:style/Theme.Holo.NoActionBar" />
 
         <!--End of DS Photo Editor SDK-->
+
+        <service
+            android:name=".services.MyFirebaseInstanceService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
 
         <meta-data
             android:name="preloaded_fonts"

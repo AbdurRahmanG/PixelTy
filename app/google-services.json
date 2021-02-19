@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "305044158075",
+    "project_id": "pixel-ty",
+    "storage_bucket": "pixel-ty.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305044158075:android:4d541e82b0c5cf177214de",
+        "android_client_info": {
+          "package_name": "com.techilyfly.pixelty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305044158075-cb241lcdidjrr9qlm2pqsu27lduu6qt8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3SILqEFZqWd7ncLsQNvPpbC_3jeh8euc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305044158075-cb241lcdidjrr9qlm2pqsu27lduu6qt8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

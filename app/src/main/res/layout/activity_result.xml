@@ -13,20 +13,22 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:tint="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_left_arrow" />
+        app:srcCompat="@drawable/ic_left_arrow"
+        android:contentDescription="@string/desc"
+        app:tint="@color/white" />
 
     <ImageView
         android:id="@+id/imageViewHome"
         android:layout_width="16dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:tint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageViewBack"
-        app:srcCompat="@drawable/ic_home" />
+        app:srcCompat="@drawable/ic_home"
+        android:contentDescription="@string/desc"
+        app:tint="@color/white" />
 
     <ImageView
         android:id="@+id/imageViewFinalImage"
@@ -37,7 +39,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageViewBack"
         app:layout_constraintVertical_bias="0.25"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@tools:sample/avatars"
+        android:contentDescription="@string/desc"/>
 
     <ImageView
         android:id="@+id/imageViewAllShare"
@@ -50,7 +53,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageViewFinalImage"
-        app:srcCompat="@drawable/ic_share" />
+        app:srcCompat="@drawable/ic_share"
+        android:contentDescription="@string/desc"/>
 
     <ImageView
         android:id="@+id/imageViewFacebookShare"
@@ -61,7 +65,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageViewAllShare"
         app:layout_constraintTop_toBottomOf="@+id/imageViewFinalImage"
-        app:srcCompat="@drawable/ic_facebook" />
+        app:srcCompat="@drawable/ic_facebook"
+        android:contentDescription="@string/desc"/>
 
     <ImageView
         android:id="@+id/imageViewWhatsAppShare"
@@ -72,7 +77,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageViewFacebookShare"
         app:layout_constraintTop_toBottomOf="@+id/imageViewFinalImage"
-        app:srcCompat="@drawable/ic_whatsapp" />
+        app:srcCompat="@drawable/ic_whatsapp"
+        android:contentDescription="@string/desc"/>
 
     <ImageView
         android:id="@+id/imageViewInstagramShare"
@@ -83,5 +89,6 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageViewWhatsAppShare"
         app:layout_constraintTop_toBottomOf="@+id/imageViewFinalImage"
-        app:srcCompat="@drawable/ic_instagram" />
+        app:srcCompat="@drawable/ic_instagram"
+        android:contentDescription="@string/desc"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

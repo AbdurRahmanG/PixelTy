@@ -5,4 +5,6 @@
     <string name="edit">Edit</string>
     <string name="www_abdurrahmang_com">www.AbdurRahmanG.com</string>
     <string name="camera">Camera</string>
+
+    <string name="desc">Image Description</string>
 </resources>
